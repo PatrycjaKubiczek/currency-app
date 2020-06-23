@@ -1,0 +1,91 @@
+html, body
+    background-color: #282c34
+
+.App
+  margin: 0 auto
+  color: white
+  max-width: 900px
+  @media screen and ( max-width: 900px )
+    max-width: 100%
+    margin: 10px
+    
+.App-header
+  background-color: #282c34
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  font-size: calc(10px + 2vmin)
+  color: white
+
+.App-link
+  color: #61dafb
+
+form
+  margin: 10px
+
+
+input
+  padding: 5px
+  margin: 5px 0
+  border: 1px solid #67686b
+  background-color: #282c34
+  color: white
+  border-radius: 4px
+
+label
+  display: inline-block
+
+table
+  border-collapse: collapse
+  width: 100%
+
+tr td
+  text-align: center
+  padding: 5px
+  width: 32%
+
+th
+  width: 32%
+  padding: 5px
+
+th:last-child
+  width: 6%
+
+
+.input__pln
+  margin-left: 10px
+  margin-right: 10px
+
+
+.transaction__wrapper
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: flex-start
+  @media screen and ( max-width: 768px )
+    flex-direction: column
+
+.transaction__list
+  flex: 1
+  margin-right: 30px
+  @media screen and ( max-width: 768px )
+    width: 100%
+    margin-right: 0
+
+.transactionlist__table
+  height: 100px
+  paddingRight: 10
+  border-top: 1px solid grey
+  border-bottom: 1px solid grey
+  overflow-y: scroll
+  
+
+.title
+  padding-bottom: 5px
+  border-bottom: 1px solid white
+ 
+.header__empty
+  margin: 0 auto
+  width: 100%
+  text-align: center
