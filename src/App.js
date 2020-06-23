@@ -38,7 +38,7 @@ class App extends Component {
         ...this.state.transactions,
       ],
       transactionName: "",
-      transactionEuro: 0,
+      transactionEuro: undefined,
     });
   };
 

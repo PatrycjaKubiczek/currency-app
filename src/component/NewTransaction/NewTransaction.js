@@ -30,11 +30,11 @@ class TransactionHighest extends Component {
               name="transactionEuro"
               type="number"
               min="0"
-              value={this.props.euro || 0}
+              value={this.props.euro || undefined}
               placeholder="wpisz kwotę"
               onChange={this.props.onchange}
               step="0.01"
-              pattern="^\d+(?:\.\d{1,2})?$"
+              pattern="[-+]?[0-9]*[.,]?[0-9]+"
               required
               className="input__transaction"
             />
